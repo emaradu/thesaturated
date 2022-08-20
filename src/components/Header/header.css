@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    background-color: rgb(17, 17, 22);
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 80px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.middle{
+        display: flex;
+        gap: 90px;
+
+
+}
+
+.logo{
+}
