@@ -1,6 +1,4 @@
 import "./header.css";
-import Marquee from "react-easy-marquee";
-
 export const Header = () => {
   return (
     <div>

@@ -1,7 +1,5 @@
 import "./home.css";
 import Marquee from "react-fast-marquee";
-import barcode from "./barcode.jpeg";
-
 export const Home = () => {
   return (
     <div className="home">
