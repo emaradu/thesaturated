@@ -1,4 +1,12 @@
 .main {
   justify-content: center;
   flex-direction: column;
+  overflow: scroll;
+  height: 100vh;
+  transition: 0.5s ease all;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
 }

@@ -1,0 +1,85 @@
+
+.portfolius {
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.title{
+    display: flex;
+    font-size: 50px;
+    padding-left: 40px;
+    color: black;
+    font-family: 'stretch_proregular';
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-left: 150px;
+    font-size: 30px;
+    color: black;
+    font-family: 'holidays_homeworkregular';
+
+}
+
+.bullets
+{
+    font-family: 'stretch_proregular';
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    
+}
+.mainport{
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+
+}
+
+.photography{
+    margin-bottom: 20px;
+}
+.musicprod{
+    margin-bottom: 20px;
+}
+.graphicdes{
+    margin-bottom: 20px;
+}
+.animatione{
+    margin-bottom: 20px;
+}
+
+
+
+
+.rectangle {
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    outline: 3px solid black;
+
+  }
+
+.righten{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px ;
+    gap: 380px;
+}
+
+
+
+@font-face {
+    font-family: 'holidays_homeworkregular';
+    src: url('holidays_homework-webfont.woff2') format('woff2'),
+         url('holidays_homework-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  

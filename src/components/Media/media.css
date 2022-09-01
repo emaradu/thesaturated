@@ -1,0 +1,44 @@
+.phtitle{
+    font-size: 50px;
+    font-family: 'stretch_proregular';
+    padding-left: 40px;
+    line-height: 30px;
+
+}
+.phtitle2{
+    font-size: 50px;
+    font-family: 'stretch_proregular';
+    padding-left: 40px;
+    -webkit-text-stroke: 0.5px black;
+    color: white;
+    
+}
+.phtitle3{
+    font-size: 50px;
+    font-family: 'stretch_proregular';
+    padding-left: 40px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    line-height: 30px;    
+}
+
+.titles{
+    padding-top: 200px;
+}
+
+.hands{
+    float: left;
+    position: absolute;
+    padding-top: 120px;
+
+
+}
+
+.line1{
+    font-family: ;
+}
+.pht{
+    display: flex;
+    position: relative;
+}
+

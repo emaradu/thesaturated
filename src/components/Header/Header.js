@@ -1,13 +1,17 @@
 import "./header.css";
+import Marquee from "react-easy-marquee";
 
 export const Header = () => {
   return (
-    <div className="header">
-      <div className="logo"> the saturated </div>
-      <div className="middle">
-        <div> Category </div>
-        <div> Category 2 </div>
-        <div> Category 3 </div>
+    <div>
+      <div className="header">
+        <div className="logo">saturated</div>
+
+        <div className="middle">
+          <div> home </div>
+          <div> portfolio </div>
+          <div> about me </div>
+        </div>
       </div>
     </div>
   );

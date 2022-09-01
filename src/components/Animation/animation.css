@@ -1,0 +1,25 @@
+.animationtitle{
+    display: flex;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 600px;
+    padding-right: 40px;
+    flex-direction: column;
+    float: right;
+
+
+}
+
+
+
+.videos{
+    padding-left: 150px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    text-align: center;
+    padding-top: 800px;
+
+}
