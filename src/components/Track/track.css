@@ -32,3 +32,13 @@
     font-style: normal;
     font-display: swap;
 }
+
+.sonmg{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 40px;
+    color: black;
+}

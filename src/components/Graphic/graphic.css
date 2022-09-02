@@ -1,0 +1,71 @@
+.titlegph{
+    font-family:  'stretch_proregular';
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+
+}
+
+.tl{
+    padding-left: 15px;
+}
+
+.tl2{
+    padding-left: 15px;
+    font-family:  'stretch_proregular';
+    font-size: 50px;
+    display: flex;
+    position: relative;
+
+}
+
+.tl3{
+    font-size: 11px;
+    position: relative;
+    top: 32px;
+    left: 20px;
+}
+
+.da{
+    display: flex;
+    flex-direction: row;
+    padding-top: 400px;
+    bottom: 1px;
+}
+
+
+
+.gph{
+    padding-top: 200px;
+    padding-left: 40px;
+}
+
+.iug{
+    position: relative;
+    float:left;
+}
+
+.iug2{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    text-align: center;
+    text-align: right;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    position: relative;
+    bottom: 230px;
+    right: 120px;
+    font-size: 11px;
+
+}
+
+.expln2{
+    font-size: 40px;
+    padding-top: 200px;
+}

@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import { Anima } from "./components/Anima/Anima";
+import { Artworks } from "./components/Artworks/Artworks";
+import { Graphic } from "./components/Graphic/Graphic";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { Media } from "./components/Media/Media";
@@ -29,6 +32,9 @@ function App() {
       <Pictures />
       <Music />
       <Track />
+      <Graphic />
+      <Artworks />
+      <Anima />
     </div>
   );
 }

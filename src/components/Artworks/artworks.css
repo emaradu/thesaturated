@@ -1,0 +1,64 @@
+.md1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.md2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+.d1 {
+   margin-right: 20px;
+}
+
+
+.d2 {
+    margin-right: 20px;
+ }
+
+
+ .d4 {
+    margin-right: 20px;
+ }
+
+
+ .d5 {
+    margin-right: 20px;
+ }
+
+ .artl{
+     font-size: 50px;
+     font-family:  'stretch_proregular';
+     float: right ;
+     padding-left: 300px;
+     padding-right: 90px;
+
+
+     
+ }
+
+ .mediawork{
+     padding-top: 110px;
+     justify-content: center;
+     position: relative;
+
+ }
+
+
+ .note{
+     font-size: 12px;
+     display: flex;
+     left: 92px;
+     position: relative;
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .page50{
+     padding-top: 200px;
+     padding-bottom: 60px;
+ }
