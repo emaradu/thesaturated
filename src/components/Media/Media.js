@@ -15,6 +15,11 @@ export const Media = () => {
         PARTS OF THE WORLD AND PEOPLE <br />
         PORTRAYED UNDER LENSES AND EDITING PROCESS
       </div>
+      <div className="line2">explanations abt my passion for photography</div>
+      <div className="circle">
+        <img src="/images/circling.png" alt="home4" height={"150px"} />
+      </div>
+      <div className="gallery">GALLERY</div>
     </div>
   );
 };

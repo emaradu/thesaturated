@@ -3,7 +3,10 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { Media } from "./components/Media/Media";
+import { Music } from "./components/Music/Music";
+import { Pictures } from "./components/Pictures/Pictures";
 import { Portfolio } from "./components/Portfolio/Portfolio";
+import { Track } from "./components/Track/Track";
 
 function App() {
   const [scroll, setScroll] = useState(0);
@@ -23,6 +26,9 @@ function App() {
       <Home />
       <Portfolio />
       <Media />
+      <Pictures />
+      <Music />
+      <Track />
     </div>
   );
 }

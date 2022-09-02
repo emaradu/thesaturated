@@ -35,10 +35,60 @@
 }
 
 .line1{
+    font-family: 'LEDLIGHT';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 35px;
 
 }
+
+.line2{
+    font-family: 'linear_beam___0.5';
+    justify-content: center;
+    display: flex;
+    line-height: 40px;
+}
+
+.circle{
+   float: right;
+   margin-left: 1400px;
+   margin-top: 250px;
+   position: relative;
+   
+}
+
+.gallery{
+    font-size: 40px;
+    font-family:  'stretch_proregular';
+    text-align: right;
+    position: absolute;
+    bottom: 50px;
+    padding-left: 1470px;
+}
+
 .pht{
     display: flex;
     position: relative;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'LEDLIGHT';
+    src: url('LEDLIGHT.woff2') format('woff2'),
+        url('LEDLIGHT.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'linear_beam___0.5';
+    src: url('linebeam-webfont.woff2') format('woff2'),
+         url('linebeam-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
