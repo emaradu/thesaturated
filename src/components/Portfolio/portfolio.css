@@ -30,7 +30,7 @@
     font-size: 40px;
     display: flex;
     flex-direction: column;
-    padding-top: 25px;
+    padding-top: 40px;
     
 }
 .mainport{
@@ -60,8 +60,10 @@
     display: inline-block;
     width: 600px;
     height: 200px;
-    outline: 3px solid black;
-
+    outline: 2px solid black;
+    position: relative;
+    top: 20px;
+    
   }
 
 .righten{

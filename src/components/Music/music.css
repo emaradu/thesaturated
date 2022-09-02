@@ -100,10 +100,14 @@
 .ins2{
     margin-right: 80px;
     padding-top: 50px;
+    position: relative;
+    left: 20px;
 }
 
 .ins3{
     padding-top: 50px;
+    position: relative;
+    left: 40px;
 }
 
 .ins4{
