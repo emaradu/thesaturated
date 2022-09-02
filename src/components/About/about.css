@@ -1,0 +1,22 @@
+.about-title{
+    font-size:50px;
+    font-family:  'stretch_proregular';
+    text-align: center;
+    
+}
+
+.documentary{
+    display: inline-block;
+    width: 1200px;
+    height: 600px;
+    outline: 2px solid black;
+    position: relative;
+    float: right;
+    left: -300px;
+    top: 20px;
+}
+
+.about-page{
+    padding-top: 200px;
+    padding-bottom: 700px;
+}

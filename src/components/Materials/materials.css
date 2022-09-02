@@ -1,0 +1,45 @@
+.smtitle{
+    font-size: 50px;
+    font-family:  'stretch_proregular';
+    float: right;
+    padding-right: 40px;
+
+}
+
+.gal{
+    display: inline-block;
+    width: 1780px;
+    height: 200px;
+    outline: 2px solid black;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.threedtitle{
+    padding-top: 90px;
+    font-size: 50px;
+    font-family:  'stretch_proregular';
+    float: left;
+    padding-left: 40px;
+
+}
+
+.gal2{
+    display: inline-block;
+    width: 1780px;
+    height: 200px;
+    outline: 2px solid black;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.clicky{
+    font-size: 20px;
+    font-family:  'stretch_proregular';
+    text-align: center;
+    padding-top: 200px;
+}

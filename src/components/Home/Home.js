@@ -15,7 +15,7 @@ export const Home = () => {
           would offer artistic enhancement and meaning.{" "}
         </div>
       </div>
-      <Marquee className="animation" speed="70" gradient={false}>
+      <Marquee className="animation" speed="90" gradient={false}>
         <div className="dil">
           CAUTION! TOO MUCH DRIP, MAKE SURE YOU ADMIRE WITH EUPHORIA AND DILATED
           PUPILS.
