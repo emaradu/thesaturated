@@ -17,9 +17,11 @@ export const Media = () => {
       </div>
       <div className="line2">explanations abt my passion for photography</div>
       <div className="circle">
+        <a href="http://instagram.com" target="_blank" className="gallery">
+          GALLERY
+        </a>
         <img src="/images/circling.png" alt="home4" height={"150px"} />
       </div>
-      <div className="gallery">GALLERY</div>
     </div>
   );
 };

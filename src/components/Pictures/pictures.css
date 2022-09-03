@@ -60,3 +60,47 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media  (max-width: 767px){
+    .img1{
+        max-width: 10px;
+    }
+
+    .photos1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100px;
+        height: 2px;
+        justify-content: center;
+
+    }
+
+    .photos2{
+        display: none;
+        flex-direction: column;
+        width: 20px;
+        
+    }
+
+    .titlepic{
+        font-size: 17px;
+        line-height: 18px;
+        position: relative;
+        left:-150px;
+        top: 0px;
+        text-align: right;
+    }
+    .smalltext{
+        font-size: 10px;
+        position: relative;
+        top:105px;
+        left: -230px;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .slatt{
+        flex-direction: column;
+    }
+}

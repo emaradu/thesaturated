@@ -1,8 +1,8 @@
 import "./about.css";
 
-export const About = () => {
+export const About = ({ aboutRef }) => {
   return (
-    <div>
+    <div ref={aboutRef}>
       <div className="about-page">
         <div className="about-title">ABOUT ME</div>
         <div className="documentary"></div>

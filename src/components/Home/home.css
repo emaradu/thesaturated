@@ -117,3 +117,48 @@
     display: flex;
     flex-direction: row;
 }
+
+@media  (max-width: 767px){
+
+    .home{
+        position: relative;
+        top: -80px;
+    }
+    .definition{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text{
+        font-size: 10px;
+        padding-top: 30px;
+        
+
+        
+    }
+
+    .dil{
+        font-size: 30px;
+        top: -60px;
+        position: relative;
+        margin-right: 30px;
+    }
+
+    .notforuse{
+        height: 3px;
+        width: 0.2px;
+        position: relative;
+        right: 250px;
+        top: 50px;
+    }
+
+    .noting1{
+        font-size: 8px;
+        text-align: center;
+        position: relative;
+        left: 40px;
+        
+    }
+
+   
+}

@@ -4,3 +4,9 @@
     position: relative;
     top:200px;
 }
+
+@media  (max-width: 767px) {
+    .thankyou-title {
+        font-size: 12px;
+    }
+  }

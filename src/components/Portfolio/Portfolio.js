@@ -1,9 +1,9 @@
 import "./portfolio.css";
 import React from "react";
 
-export const Portfolio = () => {
+export const Portfolio = ({ portRef }) => {
   return (
-    <div className="prt">
+    <div className="prt" ref={portRef}>
       <div className="portfolius"> </div>
       <div className="righten">
         <div className="title">PORTFOLIO</div> <div className="rectangle"></div>

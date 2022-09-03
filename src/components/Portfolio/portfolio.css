@@ -1,4 +1,7 @@
-
+.prt {
+    max-width: 100vw;
+    overflow: hidden;
+}
 .portfolius {
     display: flex;
     flex-direction: row;
@@ -63,6 +66,7 @@
     outline: 2px solid black;
     position: relative;
     top: 20px;
+    right: 20px;
     
   }
 
@@ -84,4 +88,25 @@
 
 }
 
+@media  (max-width: 767px){
+    .title{
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        left: 40px;
+    }
+
+    .text3{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: -120px;
+    
+    }
+
+    .prt{
+        position: relative;
+        top:-150px;
+    }
+}
   

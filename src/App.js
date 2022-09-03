@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import { About } from "./components/About/About";
 import { Anima } from "./components/Anima/Anima";
@@ -19,11 +19,12 @@ import { Videomedia } from "./components/Videomedia/Videomedia";
 
 function App() {
   const [scroll, setScroll] = useState(0);
+  const aboutRef = useRef();
+  const portRef = useRef();
   return (
     <div
       className="main"
       onScroll={(e) => {
-        console.log("aici", e.currentTarget.scrollTop);
         setScroll(e.currentTarget.scrollTop);
       }}
       style={{
@@ -31,9 +32,9 @@ function App() {
         //color: scroll > 500 ? "#FFFFFF" : "#000000",
       }}
     >
-      {scroll < 500 && <Header />}
+      {scroll < 500 && <Header aboutRef={aboutRef} portRef={portRef} />}
       <Home />
-      <Portfolio />
+      <Portfolio portRef={portRef} />
       <Media />
       <Pictures />
       <Music />
@@ -44,7 +45,7 @@ function App() {
       <Materials />
       <Video />
       <Videomedia />
-      <About />
+      <About aboutRef={aboutRef} />
       <Credits />
       <Thankyou />
     </div>

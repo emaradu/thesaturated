@@ -42,3 +42,19 @@
     padding-right: 40px;
     color: black;
 }
+
+.rhap_container {
+    box-shadow: none!important;
+}
+
+.rhap_volume-controls {
+    display: none!important;
+}
+.rhap_progress-section {
+    display: none!important;
+}
+
+.rhap_additional-controls {display: none!important;}
+.rhap_forward-button {display: none!important;}
+.rhap_rewind-button {display: none!important;}
+.rhap_main-controls-button{color: black!important ;}
