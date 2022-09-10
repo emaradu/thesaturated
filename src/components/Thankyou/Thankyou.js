@@ -12,6 +12,7 @@ export const Thankyou = () => {
       <div className="socials">
         <a
           href="https://www.instagram.com/emaradu_/"
+          rel="noreferrer"
           target="_blank"
           className="instalog"
         >
@@ -26,6 +27,7 @@ export const Thankyou = () => {
         </a>
         <a
           href="https://www.facebook.com/emiliaraduu/"
+          rel="noreferrer"
           target="_blank"
           className="faclog"
         >
@@ -40,6 +42,7 @@ export const Thankyou = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/emaradu/"
+          rel="noreferrer"
           target="_blank"
           className="linlog"
         >

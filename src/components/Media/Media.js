@@ -46,6 +46,7 @@ export const Media = () => {
       <div className="circle">
         <a
           href="http://instagram.com/yetsounaware"
+          rel="noreferrer"
           target="_blank"
           className="gallery"
         >
