@@ -12,7 +12,7 @@ export const Home = () => {
           young student who dreams far ahead,
           <br /> highly determined to make a significant change for the future
           of art and build up a foundation with forms of creativity <br /> that
-          would offer artistic enhancement and meaning to a .{" "}
+          would offer artistic enhancement and meaning.{" "}
         </div>
       </div>
       <Marquee className="animation" speed="70" gradient={false}>
