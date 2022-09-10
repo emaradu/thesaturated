@@ -18,8 +18,8 @@ export const Music = () => {
         <img
           src="/images/firstyear.png"
           alt="home3"
-          height={"100px"}
-          width={"200px"}
+          height={"150px"}
+          width={"300px"}
         />
         <div className="two">22</div>
         <div className="frsh">
@@ -34,7 +34,7 @@ export const Music = () => {
             <img
               src="/images/uncommon2.png"
               alt="home3"
-              height={"260px"}
+              height={"150px"}
               width={"500px"}
             />
           </div>
@@ -43,7 +43,7 @@ export const Music = () => {
             <img
               src="/images/tral.png"
               alt="home3"
-              height={"180px"}
+              height={"90px"}
               width={"500px"}
             />
           </div>
@@ -52,7 +52,7 @@ export const Music = () => {
             <img
               src="/images/pieces.png"
               alt="home3"
-              height={"180px"}
+              height={"90px"}
               width={"500px"}
             />
           </div>
@@ -69,7 +69,7 @@ export const Music = () => {
             <img
               src="/images/mission.png"
               alt="home3"
-              height={"200px"}
+              height={"150px"}
               width={"500px"}
             />
           </div>
@@ -78,7 +78,7 @@ export const Music = () => {
             <img
               src="/images/neverguessed.png"
               alt="home3"
-              height={"200px"}
+              height={"150px"}
               width={"500px"}
             />
           </div>
@@ -87,16 +87,16 @@ export const Music = () => {
             <img
               src="/images/expect.png"
               alt="home3"
-              height={"100px"}
-              width={"500px"}
+              height={"60px"}
+              width={"450px"}
             />
           </div>
         </div>
         <div className="names">
           {" "}
-          <div className="unc">MISSION</div>
-          <div className="unc4">NEVER GUESSED</div>
-          <div className="unc3">EXPECT</div>
+          <div className="unc4">MISSION</div>
+          <div className="unc5">NEVER GUESSED</div>
+          <div className="unc6">EXPECT</div>
         </div>
       </div>
     </div>

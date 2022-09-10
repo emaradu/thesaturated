@@ -50,10 +50,14 @@
 }
 
 .line2{
-    font-family: 'linear_beam___0.5';
+    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     display: flex;
-    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top:20px;
+
 }
 
 .circle{
@@ -85,6 +89,15 @@
     display: flex;
     position: relative;
     flex-direction: column;
+}
+
+.infos{
+    position: relative;
+    font-size: 8px;
+    bottom: 0;
+    top: 360px;
+    text-align: center;
+    left: 600px;
 }
 
 @font-face {
@@ -128,7 +141,7 @@
 
     .pht{
         position: relative;
-        top:-450px;
+        top:-300px;
     }
 
     .line1{
@@ -140,9 +153,11 @@
     }
 
     .line2{
-        font-size: 10px;
+        font-size: 3vw;
         position: relative;
-        top: -10px;
+        top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         
     }
 
@@ -150,13 +165,15 @@
         position: relative;
         text-align: center;
         align-items: center;
-        left:8px;
-    }
+        left:80px;
+        top: 80px;
 
+    }
+   
     .gallery{
         position: relative;
         left: 60px;
         font-size: 25px;
-        top: 20px;
+        top: 70px;
     }
 }

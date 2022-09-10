@@ -15,8 +15,12 @@
     padding-left: 15px;
     font-family:  'stretch_proregular';
     font-size: 50px;
-    display: flex;
     position: relative;
+    top:700px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 
 }
 
@@ -24,7 +28,7 @@
     font-size: 11px;
     position: relative;
     top: 32px;
-    left: 20px;
+    left: 90px;
 }
 
 .da{
@@ -32,6 +36,14 @@
     flex-direction: row;
     padding-top: 400px;
     bottom: 1px;
+}
+
+.tl4{
+    position: relative;
+    font-size: 10px;
+    left:-230px;
+    text-align: center;
+    top: 660px;
 }
 
 
@@ -66,6 +78,9 @@
 }
 
 .expln2{
-    font-size: 40px;
-    padding-top: 200px;
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 80px;
+    font-family: 'Times New Roman', Times, serif;
 }

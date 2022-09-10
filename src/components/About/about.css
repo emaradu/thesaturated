@@ -7,13 +7,13 @@
 
 .documentary{
     display: inline-block;
-    width: 1200px;
+    width: 1500px;
     height: 600px;
     outline: 2px solid black;
     position: relative;
     float: right;
-    left: -300px;
-    top: 20px;
+    left: -90px;
+    top: 50px;
 }
 
 .about-page{

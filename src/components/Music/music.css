@@ -45,11 +45,9 @@
 }
 
 .firsty{
-    float: right;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    line-height: 2px;
+   position: relative;
+   float: right;
+   top: -40px;
 }
 
 .msc{
@@ -58,20 +56,21 @@
 
 .two{
     font-family: 'stretch_proregular';
-    position: absolute;
-    padding-left: 114px;
-    padding-top: 50px;
-    font-size: 13px;
+    position: relative;
+    float: right;
+    top:70px;
+    left: -125px;
+    font-size: 17px;
 
 }
 
 .frsh{
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    padding-left: 50px;
-    padding-top: 48px;
-    font-size: 4.3px;
-    line-height: 5px;
+    position: relative;
+    top: -80px;
+    left: 78px;
+    font-size: 6px;
+    line-height: 7px;
 
 }
 
@@ -94,34 +93,39 @@
 }
 
 .ins1{
-    margin-right: 80px;
+    position: relative;
+    top:40px;
+    left: -12px;
+
+   
 }
 
 .ins2{
-    margin-right: 80px;
-    padding-top: 50px;
     position: relative;
+    top: 75px;
     left: 20px;
 }
 
 .ins3{
-    padding-top: 50px;
     position: relative;
-    left: 40px;
+    top: 75px;
+    left: 62px;
 }
 
 .ins4{
-    margin-right: 90px;
+    position: relative;
+    left:-12px;
 }
 
 .ins5{
-    margin-right: 80px;
-    padding-top: 0px;
+    position: relative;
+    left:-50px;
 }
 
 .ins6{
-    padding-top: 50px;
-    padding-right: 90px;
+    position: relative;
+    top: 45px;
+    left: -60px;
 }
 
 .names{
@@ -138,17 +142,49 @@
 }
 
 .unc{
-    margin-left: 40px;
+    position: relative;
+    top: -30px;
+    left: 20px;
 }
 
 .unc2{
-    margin-right: 80px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+
+.unc3{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.unc5{
+    position: relative;
+    top: -70px;
+    left:30px;
+}
+
+.instrumente{
+    line-height: 100px;
+    padding-top: 30px;
 }
 
 .unc4{
-    margin-left: 80px;
+
+ position: relative;
+    top:-70px;
+    left:20px;
 }
 
+
+.unc6{
+
+    position: relative;
+       top:-70px;
+       left:50px;
+   }
+   
 
 
 

@@ -5,6 +5,64 @@
     top:200px;
 }
 
+.insta{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: -198px;
+    color: black;
+}
+
+.fac{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 400px;
+    top: -240px;
+    color: black;
+}
+
+.lin{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: -290px;
+    left: 400px;
+    color: black;
+}
+
+.log1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: -218px;
+    left: 760px;
+}
+
+.log2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: -263px;
+    left: 360px;
+}
+
+.log3{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: -310px;
+    left: 1160px;
+}
+
 @media  (max-width: 767px) {
     .thankyou-title {
         font-size: 12px;

@@ -7,21 +7,21 @@ export const Artworks = () => {
       <div className="mediawork">
         <div className="md1">
           <div className="d1">
-            <img src="/images/take-the-bus.jpg" alt="home3" width={"550px"} />
+            <img src="/images/take-the-bus.jpg" alt="home3" width={"450px"} />
           </div>
           <div className="d2">
-            <img src="/images/bricks.png" alt="home3" width={"550px"} />
+            <img src="/images/bricks.png" alt="home3" width={"450px"} />
           </div>
           <div className="d3">
-            <img src="/images/asdfg.png" alt="home3" width={"550px"} />
+            <img src="/images/asdfg.png" alt="home3" width={"450px"} />
           </div>
         </div>
         <div className="md2">
           <div className="d4">
-            <img src="/images/sdf.jpg" alt="home3" width={"550px"} />
+            <img src="/images/sdf.jpg" alt="home3" width={"450px"} />
           </div>
           <div className="d5">
-            <img src="/images/hill.png" alt="home3" width={"550px"} />
+            <img src="/images/hill.png" alt="home3" width={"450px"} />
           </div>
           <div className="d6">
             <img

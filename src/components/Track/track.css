@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.trk{
+    position: relative;
+    padding-top: 200px;
+}
+
 .bytr{
     font-size: 35px;
     text-align: center;
@@ -17,7 +22,6 @@
 .pla{
     font-size: 25px;
     font-family:  'stretch_proregular';
-    padding-top: 250px;
     padding-left: 40px;
 
 }
@@ -34,12 +38,10 @@
 }
 
 .sonmg{
-    height: 100px;
-    width: 400px;
-    display: flex;
-    flex-direction: row;
+    position: relative;
     float: right;
-    padding-right: 40px;
+    top:-50px;
+    right: 40px;
     color: black;
 }
 
@@ -58,3 +60,18 @@
 .rhap_forward-button {display: none!important;}
 .rhap_rewind-button {display: none!important;}
 .rhap_main-controls-button{color: black!important ;}
+
+.meaningtrack{
+    position: relative;
+    display: flex;
+    top:-390px;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 200px;
+    line-height: 15px;
+
+    
+    
+}

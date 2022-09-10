@@ -17,8 +17,8 @@ export const Home = () => {
       </div>
       <Marquee className="animation" speed="70" gradient={false}>
         <div className="dil">
-          CAUTION! TOO MUCH DRIP, MAKE SURE YOU ADMIRE WITH EUPHORIA AND DILATED
-          PUPILS.
+          CAUTION! YOU ARE ENCOUNTERING WITH EXQUISITE ARTISTRY, MAKE SURE YOU
+          ADMIRE WITH EUPHORIA AND DILATED PUPILS.
         </div>
       </Marquee>
       <div className="alignment">

@@ -8,11 +8,15 @@ export const Portfolio = ({ portRef }) => {
       <div className="righten">
         <div className="title">PORTFOLIO</div> <div className="rectangle"></div>
       </div>
+      <div className="pov">
+        from another
+        <br /> point of <br /> view
+      </div>
       <div className="mainport">
         <div className="text3">
           providing a set
           <br />
-          of skills <br /> I have gained <br />
+          of skills I have gained <br />
           through my inspiration <br /> and creativity
         </div>
         <div className="bullets">
