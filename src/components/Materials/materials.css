@@ -26,6 +26,13 @@
 
 }
 
+.giffy{
+    position: relative;
+    float: right;
+    top: 200px;
+    left: 450px;
+}
+
 .gal2{
     display: inline-block;
     width: 1580px;

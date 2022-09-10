@@ -6,6 +6,9 @@ export const Materials = () => {
       <div className="sm3m">
         <div className="stop-motion">
           <div className="smtitle">STOP-MOTION</div>
+          <div className="giffy">
+            <img src="/images/trey.gif" alt="home4" height={"150px"} />
+          </div>
           <div className="gal"></div>
         </div>
         <div className="3d-motion">
