@@ -11,8 +11,8 @@ export const Home = () => {
           Here you would come upon a list of things that mark the talents of a
           young student who dreams far ahead,
           <br /> highly determined to make a significant change for the future
-          of art and build up a foundation of abstract creativity <br /> that
-          would offer artistic enhancement and meaning.{" "}
+          of art and build up a foundation with forms of creativity <br /> that
+          would offer artistic enhancement and meaning to a .{" "}
         </div>
       </div>
       <Marquee className="animation" speed="70" gradient={false}>

@@ -4,10 +4,13 @@ import "react-h5-audio-player/lib/styles.css";
 import { useState } from "react";
 
 const songs = [
-  require("../../audio/blueeeeee.wav"),
-  require("../../audio/aSEDRT.wav"),
-  require("../../audio/ehytfds.wav"),
-  require("../../audio/m vb.wav"),
+  require("../../audio/here.wav"),
+  require("../../audio/milvre_1.wav"),
+  require("../../audio/NEVERGUESSED1.mp3"),
+  require("../../audio/electro.mp3"),
+  require("../../audio/ifyoueverneed2cr.mp3"),
+  require("../../audio/steve.mp3"),
+  require("../../audio/BABY.mp3"),
 ];
 
 export const Track = () => {
