@@ -29,8 +29,9 @@
 .giffy{
     position: relative;
     float: right;
+    right: 80px;
     top: 200px;
-    left: 450px;
+    
 }
 
 .gal2{
