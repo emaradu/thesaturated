@@ -11,10 +11,12 @@ export const Materials = () => {
         </div>
         <div className="3d-motion">
           <div className="threedtitle">3D MOTION</div>
-          <div className="giffy">
-            <img src="/images/trey.gif" alt="home4" height={"150px"} />
+          <div className="gal2">
+            {" "}
+            <div className="giffy">
+              <img src="/images/trey.gif" alt="home4" height={"150px"} />
+            </div>
           </div>
-          <div className="gal2"></div>
         </div>
         <div className="clicky">click/tap to view with sound</div>
       </div>

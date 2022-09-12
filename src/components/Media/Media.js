@@ -40,20 +40,27 @@ export const Media = () => {
         me'. Photography has taught me to look at the world with a different
         mindset: it is there and it exists.
       </div>
-      <div className="infos">
-        click/tap to open a new page to see more pictures
-      </div>
-      <div className="circle">
-        <a
-          href="http://instagram.com/yetsounaware"
-          rel="noreferrer"
-          target="_blank"
-          className="gallery"
-        >
-          GALLERY
-        </a>
+      <div className="wrapper">
+        <div className="circle">
+          <a
+            href="http://instagram.com/yetsounaware"
+            rel="noreferrer"
+            target="_blank"
+            className="gallery"
+          >
+            GALLERY
+          </a>
 
-        <img src="/images/circling.png" alt="home4" height={"150px"} />
+          <img
+            className="circleimg"
+            src="/images/circling.png"
+            alt="home4"
+            height={"150px"}
+          />
+        </div>
+        <div className="infos">
+          click/tap to open a new page to see more pictures
+        </div>
       </div>
     </div>
   );

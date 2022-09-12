@@ -61,15 +61,20 @@
 }
 
 .circle{
-
-   float: right;
-   position: relative;
-   top:200px;
-   left: 820px;
-   padding-bottom: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-self: flex-end;
+   flex-direction: column;
+   padding-bottom: 80px;
 
    
    
+}
+
+.circleimg{
+    position: absolute;
+
 }
 
 .gallery{
@@ -78,10 +83,9 @@
     text-align: right;
     text-decoration: none;
     color: black;
-    position: relative;
-    left: 470px;
-    padding-right: 130px;
-    top:-60px;
+    align-self: center;
+    
+    
 
 }
 
@@ -92,12 +96,19 @@
 }
 
 .infos{
-    position: relative;
-    font-size: 8px;
-    bottom: 0;
-    top: 360px;
-    text-align: center;
-    left: 600px;
+    font-size: 9px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-right: 100px;
+    width: fit-content;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
 }
 
 @font-face {

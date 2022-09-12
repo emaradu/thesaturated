@@ -27,10 +27,12 @@
 }
 
 .giffy{
-    position: relative;
-    float: right;
-    right: 80px;
-    top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-end;
+    margin: 25px 20px;
     
 }
 

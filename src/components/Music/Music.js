@@ -29,42 +29,39 @@ export const Music = () => {
       </div>
       <div className="instrumente">
         <div className="firstrow">
-          <div className="ins1">
+          <div className="beat">
             {" "}
             <img
-              src="/images/uncommon2.png"
+              src="/images/UNCOMMON1.png"
               alt="home3"
               height={"150px"}
               width={"500px"}
             />
+            <div className="unc">UNCOMMON</div>
           </div>
-          <div className="ins2">
+          <div className="beat">
             {" "}
             <img
-              src="/images/tral.png"
+              src="/images/GIFTED1.png"
               alt="home3"
-              height={"90px"}
+              height={"150px"}
               width={"500px"}
             />
+            <div className="unc">GIFTED</div>
           </div>
-          <div className="ins3">
+          <div className="beat">
             {" "}
             <img
-              src="/images/pieces.png"
+              src="/images/PIECES1.png"
               alt="home3"
-              height={"90px"}
+              height={"150px"}
               width={"500px"}
             />
+            <div className="unc">PIECES</div>
           </div>
-        </div>
-        <div className="names">
-          {" "}
-          <div className="unc">UNCOMMON</div>
-          <div className="unc2">GIFTED</div>
-          <div className="unc3">PIECES</div>
         </div>
         <div className="secondrow">
-          <div className="ins4">
+          <div className="beat">
             {" "}
             <img
               src="/images/mission.png"
@@ -72,8 +69,9 @@ export const Music = () => {
               height={"150px"}
               width={"500px"}
             />
+            <div className="unc">MISSION</div>
           </div>
-          <div className="ins5">
+          <div className="beat">
             {" "}
             <img
               src="/images/neverguessed.png"
@@ -81,22 +79,18 @@ export const Music = () => {
               height={"150px"}
               width={"500px"}
             />
+            <div className="unc">NEVER GUESSED</div>
           </div>
-          <div className="ins6">
+          <div className="beat">
             {" "}
             <img
-              src="/images/expect.png"
+              src="/images/EXPECT1.png"
               alt="home3"
-              height={"60px"}
-              width={"450px"}
+              height={"150px"}
+              width={"500px"}
             />
+            <div className="unc">EXPECT</div>
           </div>
-        </div>
-        <div className="names">
-          {" "}
-          <div className="unc4">MISSION</div>
-          <div className="unc5">NEVER GUESSED</div>
-          <div className="unc6">EXPECT</div>
         </div>
       </div>
     </div>
