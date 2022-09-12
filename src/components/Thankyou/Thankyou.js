@@ -10,50 +10,48 @@ export const Thankyou = () => {
         </Marquee>{" "}
       </div>
       <div className="socials">
+        {" "}
         <a
           href="https://www.instagram.com/emaradu_/"
           rel="noreferrer"
           target="_blank"
-          className="instalog"
+          className="insta"
         >
-          <div className="insta">/emaradu_</div>
           <img
-            className="log1"
+            className="sw"
             src="/images/instagram.png"
-            alt="home3"
+            alt="home4"
             height={"25px"}
-            width={"35px"}
           />
-        </a>
+          emaradu_
+        </a>{" "}
         <a
           href="https://www.facebook.com/emiliaraduu/"
           rel="noreferrer"
           target="_blank"
-          className="faclog"
+          className="fb"
         >
-          <div className="fac">/emiliaraduu</div>
           <img
-            className="log2"
+            className="sw"
             src="/images/facebook.png"
-            alt="home3"
-            height={"30px"}
-            width={"30px"}
+            alt="home4"
+            height={"25px"}
           />
+          emiliaraduu
         </a>
         <a
           href="https://www.linkedin.com/in/emaradu/"
           rel="noreferrer"
           target="_blank"
-          className="linlog"
+          className="lkd"
         >
-          <div className="lin">/emaradu</div>
           <img
-            className="log3"
+            className="sw"
             src="/images/linkedin.png"
-            alt="home3"
+            alt="home4"
             height={"25px"}
-            width={"30px"}
           />
+          emaradu
         </a>
       </div>
     </div>

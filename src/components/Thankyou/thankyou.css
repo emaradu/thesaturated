@@ -6,67 +6,42 @@
 }
 
 .insta{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
-    top: -198px;
-    color: black;
-   
-}
-
-.fac{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    left: 400px;
-    top: -240px;
-    color: black;
-}
-
-.lin{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
-    top: -290px;
-    left: 400px;
+    text-decoration: none;
     color: black;
     
 }
 
-.log1{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    top: -218px;
-    left: 760px;
+.fb{
+    text-decoration: none;
+    color: black;
+
 }
 
-.log2{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    top: -263px;
-    left: 360px;
-}
+.lkd{
+    text-decoration: none;
+    color: black;
 
-.log3{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    top: -310px;
-    left: 1160px;
 }
 
 .socials{
-    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+}
+
+.sw{
+    position: relative;
+    top: 8px;
+    left: -5px;
+
 }
 
 @media  (max-width: 767px) {
