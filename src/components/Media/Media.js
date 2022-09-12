@@ -41,7 +41,12 @@ export const Media = () => {
         mindset: it is there and it exists.
       </div>
       <div className="wrapper">
-        <div className="circle">
+        <a
+          href="http://instagram.com/yetsounaware"
+          rel="noreferrer"
+          target="_blank"
+          className="circle"
+        >
           <a
             href="http://instagram.com/yetsounaware"
             rel="noreferrer"
@@ -57,7 +62,7 @@ export const Media = () => {
             alt="home4"
             height={"150px"}
           />
-        </div>
+        </a>
         <div className="infos">
           click/tap to open a new page to see more pictures
         </div>

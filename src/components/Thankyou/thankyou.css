@@ -13,6 +13,7 @@
     text-align: center;
     top: -198px;
     color: black;
+   
 }
 
 .fac{
@@ -34,6 +35,7 @@
     top: -290px;
     left: 400px;
     color: black;
+    
 }
 
 .log1{
@@ -61,6 +63,10 @@
     display: flex;
     top: -310px;
     left: 1160px;
+}
+
+.socials{
+    text-decoration: none;
 }
 
 @media  (max-width: 767px) {
